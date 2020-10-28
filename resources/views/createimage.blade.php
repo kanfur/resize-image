@@ -1,6 +1,6 @@
 <html lang="en">
 <head>
-    <title>Laravel  Image Intervention</title>
+    <title>Resize Images and Upload the Base64 to S3</title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
@@ -22,7 +22,7 @@
             </ul>
         </div>
     @endif
-    <h3 class="jumbotron">Laravel  Image Intervention </h3>
+    <h3 class="jumbotron">Test Case Resize Image</h3>
     <form method="post" action="{{url('/')}}" enctype="multipart/form-data">
         @csrf
         <div class="row">
@@ -46,7 +46,7 @@
                     <img src="/images/{{$image->filename}}" />
                 </div>
                 <div class="col-md-4">
-                    <strong>Thumbnail Image:</strong>
+                    <strong>Resized Image:</strong>
                     <br/>
                     <img src="/thumbnail/{{$image->filename}}"  />
                 </div>

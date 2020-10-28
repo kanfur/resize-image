@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="416d97a7-a3d7-4a40-a18f-841e5e330182" name="Default Changelist" comment="" />
+    <list default="true" id="416d97a7-a3d7-4a40-a18f-841e5e330182" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Models/Http/Status.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/ImageResizeRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/ImageResizeRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/ImageUploadRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/ImageUploadRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Services/ImageResizeService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Services/ImageUploadService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1603885467awsgirisdene.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1603894225awscodepipeline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1603894988mhmmd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1603895964getNoticed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/1603885467awsgirisdene.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/1603894225awscodepipeline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/1603894988mhmmd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thumbnail/1603895964getNoticed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ImageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ImageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/createimage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/createimage.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +50,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -128,6 +171,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1jTjJraKXioBg6tpHtDylPzjEWl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -135,7 +179,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ogrenciyegelir-laravel" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -154,25 +198,53 @@
       <option name="presentableId" value="Default" />
       <updated>1603834907220</updated>
       <workItem from="1603834908270" duration="3384000" />
-      <workItem from="1603863496903" duration="16519000" />
+      <workItem from="1603863496903" duration="24408000" />
+      <workItem from="1603896508559" duration="79000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="462" y="86" key="NewPhpClassDialog" timestamp="1603835828430">
+    <state x="275" y="0" width="816" height="728" key="#Intentions" timestamp="1603893879292">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="86" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1603835828430" />
+    <state x="275" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1603893879292" />
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603895790970">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603895790970" />
+    <state x="431" y="157" key="#com.jetbrains.php.refactoring.extract.interface.PhpExtractInterfaceDialog#" timestamp="1603895735896">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="431" y="157" key="#com.jetbrains.php.refactoring.extract.interface.PhpExtractInterfaceDialog#/0.0.1366.728@0.0.1366.728" timestamp="1603895735896" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1603884424433">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603884424433" />
+    <state x="462" y="86" key="NewPhpClassDialog" timestamp="1603895313357">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="86" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1603895313357" />
     <state x="517" y="287" key="NewPhpFileDialog" timestamp="1603835852440">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1603835852440" />
-    <state x="389" y="97" width="587" height="534" key="find.popup" timestamp="1603879427503">
+    <state x="389" y="97" width="587" height="534" key="find.popup" timestamp="1603895075943">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="97" width="587" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1603879427503" />
+    <state x="389" y="97" width="587" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1603895075943" />
   </component>
 </project>
