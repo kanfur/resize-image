@@ -17,13 +17,13 @@ class ImageResizeService
         $this->imageResizeRepository=$imageResizeRepository;
     }
 
-    public function resizeImage($originalImage){
+    public function resizeImage($originalImage,$size){
 
         $thumbnailImage = Image::make($originalImage);
         $thumbnailPath = public_path().'/thumbnail/';
         $originalPath = public_path().'/images/';
 
-        return $this->imageResizeRepository->resizing($thumbnailImage,$thumbnailPath,$originalPath,$originalImage);
+        return $this->imageResizeRepository->resizing($thumbnailImage,$thumbnailPath,$originalPath,$originalImage,$size);
     }
 
 

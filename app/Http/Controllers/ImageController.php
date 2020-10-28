@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Services\ImageResizeService;
 use App\Services\ImageUploadService;
+use http\Exception;
 use Illuminate\Http\Request;
 use App\Models\ImageModel;
 use Illuminate\Support\Facades\Storage;
@@ -38,12 +39,17 @@ class ImageController extends Controller
 
         $this->validate($request, [
             'filename' => 'image|required|mimes:jpeg,png,jpg,gif,svg'
+
         ]);
+        if (!$request->sizes){
+            dd('fffd');
+        }
+        $size=$request->sizes;
 
         try {
             $originalImage= $request->file('filename');
 
-            $resizedImage=$this->imageResizeService->resizeImage($originalImage);
+            $resizedImage=$this->imageResizeService->resizeImage($originalImage,$size);
 
             $imagemodel= new ImageModel();
             $imagemodel->filename=time().$originalImage->getClientOriginalName();

@@ -24,6 +24,7 @@
     @endif
     <h3 class="jumbotron">Test Case Resize Image</h3>
     <form method="post" action="{{url('/')}}" enctype="multipart/form-data">
+
         @csrf
         <div class="row">
             <div class="col-md-4"></div>
@@ -31,12 +32,24 @@
                 <input type="file" name="filename" class="form-control">
             </div>
         </div>
+
+        <label for="sizes">Choose the size</label>
+        <select name="sizes" id="sizes">
+            <option value="original size">original size</option>
+            <option value="square image">square image</option>
+            <option value="small image (256x256)">small image (256x256)</option>
+            <option value="all">all</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Select Size">
+
         <div class="row">
             <div class="col-md-4"></div>
             <div class="form-group col-md-4">
                 <button type="submit" class="btn btn-success" style="margin-top:10px">Upload Image</button>
             </div>
         </div>
+
 
         @if($image)
             <div class="row">
